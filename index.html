@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="./index.css">
+    <title>Yeshwanth</title>
+    
+</head>
+<body>
+        <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">YR</a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#hero" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+            </ul>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">☰</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="floating-element floating-1"></div>
+        <div class="floating-element floating-2"></div>
+        <div class="floating-element floating-3"></div>
+        
+        <div class="hero-content glass-card fade-in-up">
+            <h1 class="hero-title">Yeshwanth Reddy</h1>
+            <h2 class="hero-subtitle"> Developer</h2>
+            <p class="hero-description">
+                As a fresher with a strong interest in Java, web technologies, and SQL, I enjoy creating responsive web applications and learning how to turn ideas into functional, user-friendly interfaces. I'm excited to explore
+                real-world challenges and grow by building reliable backend systems and clean, modern web experiences.
+            </p>
+            <div id="social">
+                <a href="https://github.com/yesh2103" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.instagram.com/yesh_reddy21/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/yeshwanth-reddy-96baa5228/" target="_blank"><i class="fab fa-linkedin "></i><a></a>
+            </div>
+            <p style="margin-top: 1rem; color: #ccc;">
+                    +91-8106105778 <br>
+                    <a href="mailto:yeshwanthreddy249@gmail.com" style="color: #ccc;">yeshwanthreddy249@gmail.com</a>
+</p>
+
+            <a href="#projects" class="neon-button">View My Work</a>
+            <a href="../Assets/Resume (1).pdf" download class="neon-button" style="margin-top: 1rem;">Download Resume</a>
+        </div>
+
+        <!-- Scroll Indicator -->
+        <div style="position: absolute; bottom: 2rem; left: 50%; transform: translateX(-50%);">
+            <div style="width: 1.5rem; height: 2.5rem; border: 2px solid hsla(180, 100%, 50%, 0.5); border-radius: 9999px; display: flex; justify-content: center;">
+                <div style="width: 4px; height: 12px; background: var(--primary); border-radius: 9999px; margin-top: 8px; animation: pulse 2s infinite;"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2 class="section-title fade-in-up">About Me</h2>
+        
+        <div class="about-grid">
+            <!-- Bio Section -->
+            <div class="glass-card about-content fade-in-up">
+                <h3>My Story</h3>
+                <p class="about-text">
+                    I’m an aspiring full-stack developer who enjoys building web applications and learning how to solve real-world problems through clean and user-friendly solutions. I'm passionate about creating things that are both 
+                    functional and visually appealing, and I'm eager to grow my skills by working on meaningful projects.
+                </p>
+                <p class="about-text">
+                    When I'm not coding, you can find me exploring new technologies, contributing to open-source projects,
+                    or experimenting with AI and machine learning concepts.
+                </p>
+                
+                <h4 style="color: var(--accent); font-size: 1.25rem; margin-bottom: 1rem;">Tech Stack</h4>
+                <div class="skills-grid">
+                    <div class="skill-badge">Java</div>
+                    <div class="skill-badge">JavaScript</div>
+                    <div class="skill-badge">HTML</div>
+                    <div class="skill-badge">CSS</div>
+                    <div class="skill-badge">SQL</div>
+                    <div class="skill-badge">React</div>
+                </div>
+            </div>
+            
+            <!-- Education Timeline -->
+            <div class="glass-card about-content fade-in-up">
+                <h3>Education</h3>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-year">2021-2025</div>
+                        <div class="timeline-company">Vardhaman College Of Engineering</div>
+                        <div class="timeline-title">CSE(AI&ML)-6.25(CGPA)</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-year">2019-2021</div>
+                        <div class="timeline-company">Sri Vardhan Junior College</div>
+                        <div class="timeline-title">MPC - 79.6%</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-year">2018-2019</div>
+                        <div class="timeline-company">ST. Peter's Central Public School - 65%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <h2 class="section-title fade-in-up">Projects</h2>
+        
+        <div class="projects-grid">
+            <div class="glass-card project-card fade-in-up">
+                <h3 class="project-title"> JUSTICE — Complaint Portal </h3>
+                <p class="project-description"> Built a single-page citizen grievance portal .</p>
+                <div class="project-tech">
+                    <span class="tech-tag">HTML</span>
+                    <span class="tech-tag">CSS</span>
+                    <span class="tech-tag">JavaScript</span>
+                    <span class="tech-tag">TensorFlow</span>
+                </div>
+                <div class="project-actions">
+                    <p class="project-btn btn-primary">
+                        ->Designed responsive UI with dropdowns (State → District → Mandal) and file uploads.
+                        <br><br>
+                        -> Developed login/signup system using localStorage and DOM manipulation.
+                        <br><br>
+                        ->Enabled multilingual support (Telugu, Hindi, Tamil, English).
+                        <br><br>
+                        ->Included dynamic quote widget with real-time updates.
+                    </p>
+                </div>
+            </div>
+
+            <div class="glass-card project-card fade-in-up">
+                <h3 class="project-title">E-Commerce Platform</h3>
+                <p class="project-description">e-commerce solution with payment integration and inventory management.</p>
+                <div class="project-tech">
+                    <span class="tech-tag">HTML</span>
+                    <span class="tech-tag">CSS</span>
+                    <span class="tech-tag">PostgreSQL</span>
+                    <span class="tech-tag">JavaScript</span>
+                </div>
+                <div class="project-actions">
+                    <p class="project-btn btn-primary">
+                        ->Designed and developed a fully functional E-Commerce webpage using HTML5, CSS3, and JavaScript.
+                        <br><br>
+                        -> Implemented a user-friendly interface with a responsive design, ensuring compatibility across various devices and screen sizes.
+                        <br><br>
+                        ->Developed a dynamic product catalog with filtering, sorting, and searching capabilities to enhance user experience.
+                    </p>
+                </div>
+            </div>
+
+            <div class="glass-card project-card fade-in-up">
+                <h3 class="project-title"> Prostate Cancer Prediction (ML Project)</h3>
+                <p class="project-description">Detect an cancer with an 89.98% accuracy</p>
+                <div class="project-tech">
+                    <span class="tech-tag"> Programming Language:Python</span>
+                    <span class="tech-tag"> Programming Language:Pandas</span>
+                    <span class="tech-tag">Machine Learning & Preprocessing:Scikit-learn (sklearn, Label Encoder, train_test_split, StanderdScale)</span>
+                    <span class="tech-tag">Privacy-Preserving ML:PySyft (syft) </span>
+                    <span class="tech-tag">Deep Learning:PyTorch (torch)</span>
+                </div>
+                <div class="project-actions">
+                    <p class="project-btn btn-primary">
+                        -> Aggregated and analyzed data on over 12,000 gene expression datasets related to tumors.
+                        <br><br>
+                        ->Deployed a machine learning model with 85.5% accuracy, improving early detection and treatment outcomes.
+                        <br><br>
+                        ->Implemented data preprocessing techniques, including normalization, feature selection, and handling missing values
+                        to ensure robust model performance.
+                        <br><br>
+                        ->Collaborated with healthcare professionals to validate model results and refine predictive capabilities.
+                    </p>
+                </div>
+            </div>
+            <div class="glass-card project-card fade-in-up">
+            <h3 class="project-title">Satya Photography Website</h3>
+            <p class="project-description">A luxury-themed, fully responsive photography portfolio website</p>
+            <div class="project-tech">
+                <span class="tech-tag">Frontend: React 18, TypeScript</span>
+                <span class="tech-tag">Styling: Tailwind CSS, Radix UI</span>
+                <span class="tech-tag">Hosting & Build: Netlify, Vite</span>
+                <span class="tech-tag">Backend (AI-Assisted): Node.js, Express</span>
+                <span class="tech-tag">Database & Auth: Supabase (PostgreSQL, Google OAuth)</span>
+                <span class="tech-tag">Email & Storage: Nodemailer, Supabase Storage</span>
+            </div>
+            <div class="project-actions">
+                <p class="project-btn btn-primary">
+                    -> Designed and developed a black-and-gold responsive UI optimized for photographers using modern React and Tailwind CSS.<br><br>
+                    -> Built interactive components including auto-sliding hero banners, filterable galleries, and smooth animations for a premium UX.<br><br>
+                    -> Integrated AI-assisted backend with Supabase for authentication, real-time updates, file uploads, and PostgreSQL database.<br><br>
+                    -> Configured role-based access control (RBAC) with a secure admin dashboard for managing uploaded media.<br><br>
+                    -> Deployed using Netlify with SEO optimization, environment management, and production-ready configuration.<br><br>
+                    <a href="https://satya-photography-app.netlify.app/" target="_blank" class="visit-link">🔗 Visit Website</a>
+                </p>
+            </div>
+</div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2025 Yeshwanth. All rights reserved. Built with HTML, CSS & JavaScript.</p>
+    </footer>
+    <script src="./index.js"></script>
+</body>
+</html>
